@@ -1,0 +1,441 @@
+waza/
+├── .vscode
+│   ├── sftp.json
+│   └── tasks.json
+├── app
+│   ├── modules
+│   │   ├── admin-category_modal.php
+│   │   ├── admin-order_modal.php
+│   │   ├── admin-product_modal.php
+│   │   ├── admin-sidebar.php
+│   │   ├── banner.php
+│   │   ├── catalog_sidebar.php
+│   │   ├── contacts_modal.php
+│   │   ├── email-edit_modal.php
+│   │   ├── email-repeat_modal.php
+│   │   ├── email-success_modal.php
+│   │   ├── email_modal.php
+│   │   ├── exit_modal.php
+│   │   ├── footer.php
+│   │   ├── guest_modal.php
+│   │   ├── header.php
+│   │   ├── layout.php
+│   │   ├── login_modal.php
+│   │   ├── name_modal.php
+│   │   ├── order_modal.php
+│   │   ├── password_modal.php
+│   │   └── reg_modal.php
+│   └── views
+│       ├── 404.php
+│       ├── admin_categories.php
+│       ├── admin_dashboard.php
+│       ├── admin_delivery.php
+│       ├── admin_discounts.php
+│       ├── admin_form.php
+│       ├── admin_orders.php
+│       ├── admin_products.php
+│       ├── admin_reviews.php
+│       ├── admin_users.php
+│       ├── cart.php
+│       ├── catalog.php
+│       ├── contacts.php
+│       ├── delivery.php
+│       ├── favourite.php
+│       ├── home.php
+│       ├── login.php
+│       ├── orders.php
+│       ├── product.php
+│       ├── profile.php
+│       ├── signup.php
+│       └── verificator.php
+├── composer.json
+├── composer.lock
+├── config
+├── database
+│   ├── admin-category-add.php
+│   ├── admin-category-delete.php
+│   ├── admin-category-edit.php
+│   ├── admin-credentials.php
+│   ├── admin-login.php
+│   ├── admin-update-order.php
+│   ├── authoriz.php
+│   ├── cart-handler.php
+│   ├── check-token-status.php
+│   ├── connect.php
+│   ├── edit-username.php
+│   ├── email-verification-flag.php
+│   ├── favourites-handler.php
+│   ├── favourites-view.php
+│   ├── filter-handler.php
+│   ├── get-cart-content.php
+│   ├── get-cart-count.php
+│   ├── get-catalog.php
+│   ├── get-categories-catalog.php
+│   ├── get-favourites-count.php
+│   ├── get-favourites-list.php
+│   ├── get-subcategories-filter.php
+│   ├── get-username.php
+│   ├── init.php
+│   ├── load-subcategories.php
+│   ├── logout.php
+│   ├── mark-order-viewed.php
+│   ├── order-handler.php
+│   ├── register.php
+│   ├── stock-handler.php
+│   ├── verify-email.php
+│   └── verify-token.php
+├── helpers
+│   ├── Exception.php
+│   ├── PHPMailer.php
+│   ├── SMTP.php
+│   └── mailer.php
+├── kopia.txt
+├── logs
+├── public
+│   ├── .htaccess
+│   ├── admin-assets
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-96x96.png
+│   │   ├── favicon.ico
+│   │   ├── favicon.svg
+│   │   ├── site.webmanifest
+│   │   ├── web-app-manifest-192x192.png
+│   │   └── web-app-manifest-512x512.png
+│   ├── admin-favicon
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-96x96.png
+│   │   ├── favicon.ico
+│   │   ├── favicon.svg
+│   │   ├── site.webmanifest
+│   │   ├── web-app-manifest-192x192.png
+│   │   └── web-app-manifest-512x512.png
+│   ├── assets
+│   │   ├── 404.png
+│   │   ├── arrow.svg
+│   │   ├── banana.png
+│   │   ├── box.svg
+│   │   ├── cart-heart-empty.svg
+│   │   ├── cart-heart-filled.svg
+│   │   ├── cart-icon.svg
+│   │   ├── cart-trashcan.svg
+│   │   ├── catalog-heart-empty.svg
+│   │   ├── catalog-heart-filled.svg
+│   │   ├── check.svg
+│   │   ├── clear.svg
+│   │   ├── contact-1.svg
+│   │   ├── contact-2.svg
+│   │   ├── contact-3.svg
+│   │   ├── contact-4.svg
+│   │   ├── contact-5.svg
+│   │   ├── copy.svg
+│   │   ├── delivery-icon.svg
+│   │   ├── dg.png
+│   │   ├── eye-closed.svg
+│   │   ├── eye.svg
+│   │   ├── faq.png
+│   │   ├── farrow-down.svg
+│   │   ├── footer.svg
+│   │   ├── heart-icon.svg
+│   │   ├── home-icon.svg
+│   │   ├── login-icon.svg
+│   │   ├── logo.svg
+│   │   ├── logout-icon.svg
+│   │   ├── minus.svg
+│   │   ├── orders-icon.svg
+│   │   ├── plus.svg
+│   │   ├── product-heart-empty.svg
+│   │   ├── product-heart-filled.svg
+│   │   ├── profile-avatar.svg
+│   │   ├── profile-delivery.svg
+│   │   ├── profile-heart.svg
+│   │   ├── profile-icon.svg
+│   │   ├── profile-order.svg
+│   │   ├── profile-review.svg
+│   │   ├── reviews-icon.svg
+│   │   ├── sarrow-down.svg
+│   │   ├── search.svg
+│   │   ├── signup-icon.svg
+│   │   ├── slide1.png
+│   │   ├── slide2.png
+│   │   ├── star.svg
+│   │   ├── tg-black.svg
+│   │   ├── tg-color.svg
+│   │   ├── vk-black.svg
+│   │   ├── vk-color.svg
+│   │   ├── wa-black.svg
+│   │   └── wa-color.svg
+│   ├── categories
+│   │   ├── accessories.png
+│   │   ├── accessories.webp
+│   │   ├── battery.png
+│   │   ├── battery.webp
+│   │   ├── bearing.png
+│   │   ├── bearing.webp
+│   │   ├── bicycle.png
+│   │   ├── bicycle.webp
+│   │   ├── boat.png
+│   │   ├── boat.webp
+│   │   ├── chainsaw.png
+│   │   ├── chainsaw.webp
+│   │   ├── dmoto.png
+│   │   ├── dmoto.webp
+│   │   ├── engine.png
+│   │   ├── engine.webp
+│   │   ├── equipment.png
+│   │   ├── equipment.webp
+│   │   ├── etools.png
+│   │   ├── etools.webp
+│   │   ├── fmoto.png
+│   │   ├── fmoto.webp
+│   │   ├── light.png
+│   │   ├── light.webp
+│   │   ├── motorcultivator.png
+│   │   ├── motorcultivator.webp
+│   │   ├── oils.png
+│   │   ├── oils.webp
+│   │   ├── other.png
+│   │   ├── other.webp
+│   │   ├── plugs.png
+│   │   ├── plugs.webp
+│   │   ├── snowmobile.png
+│   │   ├── snowmobile.webp
+│   │   ├── tires.png
+│   │   ├── tires.webp
+│   │   ├── tools.png
+│   │   └── tools.webp
+│   ├── css
+│   │   ├── accordion.css
+│   │   ├── admin-main.css
+│   │   ├── admin.css
+│   │   ├── buttons.css
+│   │   ├── cart.css
+│   │   ├── catalog.css
+│   │   ├── contacts.css
+│   │   ├── favourite.css
+│   │   ├── footer.css
+│   │   ├── form.css
+│   │   ├── header.css
+│   │   ├── home.css
+│   │   ├── layout.css
+│   │   ├── main.css
+│   │   ├── modern-reset.css
+│   │   ├── normalize.css
+│   │   ├── popup.css
+│   │   ├── product.css
+│   │   ├── profile.css
+│   │   ├── responsive.css
+│   │   ├── style.css
+│   │   ├── typography.css
+│   │   ├── utils.css
+│   │   └── variables.css
+│   ├── favicon
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-96x96.png
+│   │   ├── favicon.ico
+│   │   ├── favicon.svg
+│   │   ├── site.webmanifest
+│   │   ├── web-app-manifest-192x192.png
+│   │   └── web-app-manifest-512x512.png
+│   ├── fonts
+│   │   ├── Montserrat-Black.ttf
+│   │   ├── Montserrat-Black.woff
+│   │   ├── Montserrat-Black.woff2
+│   │   ├── Montserrat-Regular.ttf
+│   │   ├── Montserrat-Regular.woff
+│   │   ├── Montserrat-Regular.woff2
+│   │   ├── Montserrat-SemiBold.ttf
+│   │   ├── Montserrat-SemiBold.woff
+│   │   ├── Montserrat-SemiBold.woff2
+│   │   ├── Open_sans-Regular.ttf
+│   │   ├── Open_sans-Regular.woff
+│   │   ├── Open_sans-Regular.woff2
+│   │   ├── Open_sans-SemiBold.ttf
+│   │   ├── Open_sans-SemiBold.woff
+│   │   ├── Open_sans-SemiBold.woff2
+│   │   ├── Unbounded-Medium.ttf
+│   │   ├── Unbounded-Medium.woff
+│   │   ├── Unbounded-Medium.woff2
+│   │   ├── Unbounded-Regular.ttf
+│   │   ├── Unbounded-Regular.woff
+│   │   ├── Unbounded-Regular.woff2
+│   │   ├── Unbounded-SemiBold.ttf
+│   │   ├── Unbounded-SemiBold.woff
+│   │   └── Unbounded-SemiBold.woff2
+│   ├── index.php
+│   ├── js
+│   │   ├── accordionArrow.js
+│   │   ├── accordionFAQ.js
+│   │   ├── accordionSidebar.js
+│   │   ├── adminCategoryModal.js
+│   │   ├── adminOrderModal.js
+│   │   ├── adminValidate.js
+│   │   ├── advertisementSlider.js
+│   │   ├── authValidate.js
+│   │   ├── bannerLoader.js
+│   │   ├── cartCounter.js
+│   │   ├── cartOrder.js
+│   │   ├── cartSync.js
+│   │   ├── catalogFilter.js
+│   │   ├── catalogSync.js
+│   │   ├── categoryCatalogSidebar.js
+│   │   ├── clearLoginModal.js
+│   │   ├── clearPhone.js
+│   │   ├── contactsModal.js
+│   │   ├── copySku.js
+│   │   ├── editNameModal.js
+│   │   ├── editPasswordModal.js
+│   │   ├── emailRepeatModal.js
+│   │   ├── emailSuccessModal.js
+│   │   ├── emailVerifyModal.js
+│   │   ├── emailVerifyToken.js
+│   │   ├── eyePasswordForm.js
+│   │   ├── eyePasswordModal.js
+│   │   ├── favouriteCounter.js
+│   │   ├── favouriteFilter.js
+│   │   ├── guestAlertModal.js
+│   │   ├── headerProfileMenu.js
+│   │   ├── logOutModal.js
+│   │   ├── loginModal.js
+│   │   ├── newScrollReviews.js
+│   │   ├── newWindowCatalog.js
+│   │   ├── orderModal.js
+│   │   ├── path.js
+│   │   ├── popularCategoryName.js
+│   │   ├── priceSlider.js
+│   │   ├── randomContact.js
+│   │   ├── regModal.js
+│   │   ├── regValidate.js
+│   │   ├── script.js
+│   │   ├── scrollToTop.js
+│   │   ├── selectArrow.js
+│   │   ├── sidebarCategories.js
+│   │   ├── stickyHeader.js
+│   │   ├── stockChecker.js
+│   │   ├── stockUpdater.js
+│   │   ├── switchClicker.js
+│   │   ├── tabOutline.js
+│   │   └── tooltip.js
+│   ├── libs
+│   │   ├── font-awesome
+│   │   │   ├── css
+│   │   │   │   ├── all.min.css
+│   │   │   │   ├── brands.min.css
+│   │   │   │   ├── fontawesome.min.css
+│   │   │   │   └── solid.min.css
+│   │   │   └── webfonts
+│   │   │       ├── fa-brands-400.ttf
+│   │   │       ├── fa-brands-400.woff2
+│   │   │       ├── fa-regular-400.ttf
+│   │   │       ├── fa-regular-400.woff2
+│   │   │       ├── fa-solid-900.ttf
+│   │   │       ├── fa-solid-900.woff2
+│   │   │       ├── fa-v4compatibility.ttf
+│   │   │       └── fa-v4compatibility.woff2
+│   │   ├── inputmask
+│   │   │   └── inputmask.min.js
+│   │   └── jQuery
+│   │       └── jquery-3.6.0.min.js
+│   └── uploads
+├── structure.php
+├── structure.txt
+├── testy
+│   ├── 404.png
+│   ├── admin.php
+│   ├── bloodbath.php
+│   ├── deepseek.php
+│   ├── dzhigurda.php
+│   ├── error.php
+│   ├── gpt.php
+│   └── satana.php
+├── vendor
+│   ├── autoload.php
+│   ├── composer
+│   │   ├── ClassLoader.php
+│   │   ├── InstalledVersions.php
+│   │   ├── LICENSE
+│   │   ├── autoload_classmap.php
+│   │   ├── autoload_namespaces.php
+│   │   ├── autoload_psr4.php
+│   │   ├── autoload_real.php
+│   │   ├── autoload_static.php
+│   │   ├── installed.json
+│   │   ├── installed.php
+│   │   └── platform_check.php
+│   ├── phpmailer
+│   │   └── phpmailer
+│   │       ├── .editorconfig
+│   │       ├── COMMITMENT
+│   │       ├── LICENSE
+│   │       ├── README.md
+│   │       ├── SECURITY.md
+│   │       ├── VERSION
+│   │       ├── composer.json
+│   │       ├── get_oauth_token.php
+│   │       ├── language
+│   │       │   ├── phpmailer.lang-af.php
+│   │       │   ├── phpmailer.lang-ar.php
+│   │       │   ├── phpmailer.lang-as.php
+│   │       │   ├── phpmailer.lang-az.php
+│   │       │   ├── phpmailer.lang-ba.php
+│   │       │   ├── phpmailer.lang-be.php
+│   │       │   ├── phpmailer.lang-bg.php
+│   │       │   ├── phpmailer.lang-bn.php
+│   │       │   ├── phpmailer.lang-ca.php
+│   │       │   ├── phpmailer.lang-cs.php
+│   │       │   ├── phpmailer.lang-da.php
+│   │       │   ├── phpmailer.lang-de.php
+│   │       │   ├── phpmailer.lang-el.php
+│   │       │   ├── phpmailer.lang-eo.php
+│   │       │   ├── phpmailer.lang-es.php
+│   │       │   ├── phpmailer.lang-et.php
+│   │       │   ├── phpmailer.lang-fa.php
+│   │       │   ├── phpmailer.lang-fi.php
+│   │       │   ├── phpmailer.lang-fo.php
+│   │       │   ├── phpmailer.lang-fr.php
+│   │       │   ├── phpmailer.lang-gl.php
+│   │       │   ├── phpmailer.lang-he.php
+│   │       │   ├── phpmailer.lang-hi.php
+│   │       │   ├── phpmailer.lang-hr.php
+│   │       │   ├── phpmailer.lang-hu.php
+│   │       │   ├── phpmailer.lang-hy.php
+│   │       │   ├── phpmailer.lang-id.php
+│   │       │   ├── phpmailer.lang-it.php
+│   │       │   ├── phpmailer.lang-ja.php
+│   │       │   ├── phpmailer.lang-ka.php
+│   │       │   ├── phpmailer.lang-ko.php
+│   │       │   ├── phpmailer.lang-ku.php
+│   │       │   ├── phpmailer.lang-lt.php
+│   │       │   ├── phpmailer.lang-lv.php
+│   │       │   ├── phpmailer.lang-mg.php
+│   │       │   ├── phpmailer.lang-mn.php
+│   │       │   ├── phpmailer.lang-ms.php
+│   │       │   ├── phpmailer.lang-nb.php
+│   │       │   ├── phpmailer.lang-nl.php
+│   │       │   ├── phpmailer.lang-pl.php
+│   │       │   ├── phpmailer.lang-pt.php
+│   │       │   ├── phpmailer.lang-pt_br.php
+│   │       │   ├── phpmailer.lang-ro.php
+│   │       │   ├── phpmailer.lang-ru.php
+│   │       │   ├── phpmailer.lang-si.php
+│   │       │   ├── phpmailer.lang-sk.php
+│   │       │   ├── phpmailer.lang-sl.php
+│   │       │   ├── phpmailer.lang-sr.php
+│   │       │   ├── phpmailer.lang-sr_latn.php
+│   │       │   ├── phpmailer.lang-sv.php
+│   │       │   ├── phpmailer.lang-tl.php
+│   │       │   ├── phpmailer.lang-tr.php
+│   │       │   ├── phpmailer.lang-uk.php
+│   │       │   ├── phpmailer.lang-ur.php
+│   │       │   ├── phpmailer.lang-vi.php
+│   │       │   ├── phpmailer.lang-zh.php
+│   │       │   └── phpmailer.lang-zh_cn.php
+│   │       └── src
+│   │           ├── DSNConfigurator.php
+│   │           ├── Exception.php
+│   │           ├── OAuth.php
+│   │           ├── OAuthTokenProvider.php
+│   │           ├── PHPMailer.php
+│   │           ├── POP3.php
+│   │           └── SMTP.php
+│   └── vendor.rar
+└── waza.rar

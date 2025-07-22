@@ -1,0 +1,198 @@
+<div class="header-wrapper">
+    <header class="bg-dgray1 container">
+        <div class="flex fd-c">
+            <div class="module-y flex ai-c jc-sb head-cg-links">
+
+                <a href="index.php?page=home" class="flex ai-c transition mg-text logo-cg">
+                    <svg class="logo-img" viewBox="0 0 120 120" role="img" aria-hidden="false" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.148 0.917327C12.3318 1.50915 15.1928 3.87642 17.4619 6.04642C21.5067 9.99188 21.8027 10.0905 25.0583 8.90689C27.5246 8.01916 29.1031 7.92053 31.1749 8.70962C32.7533 9.30144 40.547 16.3046 48.4394 24.1955C62.251 37.8074 63.0403 38.4978 65.9999 37.8074C68.6636 37.2156 69.6501 37.7087 74.0896 41.9501C78.7264 46.3888 79.121 46.9806 77.9371 49.052C77.0492 50.8274 77.0492 52.0111 77.8385 53.6879C79.121 56.5483 79.8116 56.647 84.3497 53.9838L87.9012 51.9124L92.834 56.9429C97.2734 61.2829 97.8653 62.2692 97.4707 65.1297C97.1748 66.9051 96.6815 69.0752 96.2869 69.9629C95.7936 71.1465 98.4573 74.4015 106.448 82.1938C114.834 90.3807 117.498 93.6356 117.991 96.2002C118.386 98.2716 118.188 100.047 117.399 100.935C116.314 102.217 116.511 102.907 118.385 104.88C121.148 107.839 120.655 109.22 114.637 115.632C110 120.662 108.224 121.155 104.968 118.098C103.193 116.421 102.403 116.223 100.825 117.111C96.6815 119.281 94.807 118.196 82.8699 106.656C72.2152 96.3975 70.6367 95.2138 68.9595 96.2988C67.973 96.9893 66.0986 97.4825 64.8161 97.4825C61.8564 97.4825 55.1479 92.7479 53.3721 89.2956C52.0896 86.8297 52.0896 86.3366 54.1614 83.5747C56.3318 80.7143 56.3318 80.517 54.6546 78.6429C53.3721 77.1634 52.1883 76.8675 49.5246 77.3606C46.565 77.9525 45.7757 77.5579 41.8295 73.7111C37.7847 69.7656 37.3901 69.0752 37.982 66.0174C38.5739 62.8611 38.0807 62.2692 23.2825 47.1779C7.00448 30.7056 5.82062 28.7328 9.37218 24.0969C10.7533 22.3214 10.3587 21.7296 5.426 16.5019C2.46636 13.3455 0 10.0905 0 9.2028C0 6.83552 2.95963 2.89007 5.82061 1.31188C6.05348 1.1882 6.26701 1.07363 6.46384 0.968036C7.71133 0.29877 8.28757 -0.0103832 8.85785 0.000265758C9.34743 0.00940361 9.83261 0.254244 10.7343 0.709282C10.8633 0.774356 11.0008 0.843729 11.148 0.917327Z" fill="#30A6E1"/>
+                        <path d="M7.38591 7.98163C5.13131 11.0736 5.32736 11.7499 10.2287 16.4845C15.0319 21.1224 16.3063 21.1224 19.2471 16.7743C20.6194 14.8419 20.3253 14.3587 16.6004 10.3006C11.9931 5.37279 9.64051 4.79306 7.38591 7.98163Z" fill="#252525"/>
+                        <path d="M20.8768 20.6909C15.9515 25.4303 14 27.9394 14 29.7051C14 31.4707 17.3455 35.3737 27.9394 45.9677L41.8788 60L50.893 50.9859L60 41.8788L45.9677 27.9394C36.2101 18.1818 31.2849 14 29.798 14C28.3111 14 25.2444 16.4162 20.8768 20.6909ZM31.7495 21.899C31.7495 22.4566 31.0061 23.0141 30.0768 23.1071C28.1253 23.5717 23.2929 27.8465 23.2929 29.2404C23.2929 30.6343 27.2889 33.9798 32.1212 38.7192C40.5778 46.8041 41.8788 48.6626 40.2061 49.6849C39.0909 50.3354 20.598 31.9353 20.0404 29.5192C19.204 25.9879 26.6384 19.1111 29.9838 20.4121C31.0061 20.7838 31.7495 21.4343 31.7495 21.899Z" fill="#252525"/>
+                        <path d="M54.1217 53.9417C47.4203 60.4723 42 66.1633 42 66.723C42 67.2828 43.5768 69.0554 45.4493 70.828L48.8986 74L62.4 61.2186L76 48.5306L72.5507 45.172C70.7768 43.3994 68.5102 42 67.7218 42C66.8348 42.0933 60.7246 47.5044 54.1217 53.9417Z" fill="#252525"/>
+                        <path d="M65.059 64.1451C60.2122 69.5302 57.8329 72.9571 58.0091 74.132C58.626 77.7548 61.2697 76.2861 68.8483 68.1595C75.0169 61.5015 76.4269 59.5433 75.8981 57.8788C74.9288 54.2561 72.5494 55.6269 65.059 64.1451Z" fill="#252525"/>
+                        <path d="M70.8872 70.3918C56.1978 85.7181 56.1077 85.7181 60.6137 89.7366C64.9394 93.7551 65.6603 93.4747 78.6375 80.1109C85.3063 73.2888 91.164 66.934 91.6146 65.9995C92.1553 64.9715 92.1553 63.6631 91.4343 62.2613C89.9924 59.4578 86.9284 56 85.7569 56C84.5853 56 78.5473 62.4483 70.8872 70.3918Z" fill="#252525"/>
+                        <path d="M87.1432 78.7861C84.8887 81.6827 83.5527 84 84.1372 84C86.0577 84 94.3242 76.9322 93.9902 75.426C93.3222 72.7611 91.2347 73.8039 87.1432 78.7861Z" fill="#252525"/>
+                        <path d="M85.858 85.2958C80.4809 88.3163 76 91.2453 76 91.7944C76 92.3436 76.6273 93.2589 77.3443 93.8081C78.4197 94.4488 81.0186 93.5335 87.2023 90.33C98.6734 84.472 101.003 82.7329 99.6592 81.0854C98.0461 79.0717 96.2537 79.5294 85.858 85.2958Z" fill="#252525"/>
+                        <path d="M91.6646 92.4554C86.2954 94.9107 82 97.2868 82 97.8412C82 98.3956 82.6264 99.1876 83.2528 99.7421C84.3267 100.455 86.4743 99.8213 94.2597 96.1779C104.819 91.1881 106.698 90.0001 105.803 88.7328C104.64 87.1488 101.24 88.02 91.6646 92.4554Z" fill="#252525"/>
+                        <path d="M98.2329 97.3245C88.8806 102.286 86.1684 104.811 89.1611 105.984C90.564 106.435 110.672 97.2343 111.7 95.6106C112.636 94.2576 111.233 91.9123 109.549 92.0025C108.708 92.0025 103.657 94.438 98.2329 97.3245Z" fill="#252525"/>
+                        <path d="M107.277 107.591C103.879 110.661 103.479 111.591 104.479 112.707C106.078 114.475 106.777 114.475 109.076 112.428C112.973 109.079 114.472 106.846 113.872 105.358C112.973 103.125 111.574 103.497 107.277 107.591Z" fill="#252525"/>
+                        <path d="M98.5463 106.68C94.0705 109.749 92.6718 112 95.376 112C96.3084 111.898 98.9193 110.056 101.157 107.908C105.82 103.201 104.607 102.69 98.5463 106.68Z" fill="#252525"/>
+                    </svg>
+
+                    <div class="flex fd-c">
+                        <p class="ff-mb average-text"><span class="ab-text">МОТО</span>-ПРОФИ</p>
+                        <p class="ff-msb body-text">Магазин мотозапчастей</p>
+                    </div>
+                </a>
+
+                <div class="catalog-button-wrapper">
+                    <a href="index.php?page=catalog" class="header-catalog transition flex ai-c ff-ossb mg-text" id="headerCategoriesBtn">
+                        Каталог
+                    </a>
+                </div>
+
+                <form id="desktop-search" class="search-form flex ai-c">
+                    <input type="text" name="q" placeholder="Поиск..." class="search-input bg-w ff-osr">
+                    <button type="submit" class="search-button flex ai-c">
+                        <img src="../public/assets/search.svg" alt="🔍" class="search-icon">
+                    </button>
+                </form>
+
+                <?php if (isset($_SESSION['user'])){ ?>
+                    
+                <nav id="desktop-bar" class="header-links flex ai-c jc-sb">
+                    <a href="index.php?page=cart" class="header-link flex fd-c ai-c">
+                        <div class="link-blob blob-1 mg-text ff-ossb ta-r" id="cart-count" style="display: none;">0</div>
+                        <img src="../public/assets/cart-icon.svg" alt="🛒">
+                        <p class="mg-text fs14 ff-ossb">Корзина</p>
+                    </a>
+
+                    <a href="index.php?page=favourite" class="header-link flex fd-c ai-c">
+                        <div class="link-blob blob-2 mg-text ff-ossb ta-r" 
+                            id="favourites-count" 
+                            style="display: none;">
+                            <?= $_SESSION['user']['favourites_count'] ?? 0 ?>
+                        </div>
+                        <img src="../public/assets/heart-icon.svg" alt="Избранное">
+                        <p class="mg-text fs14 ff-ossb">Избранное</p>
+                    </a>
+                    <div class="profile-dropdown-container">
+                    <a href="index.php?page=profile" class="header-link flex fd-c ai-c">
+                        <!-- <div class="link-blob blob-3 mg-text ff-ossb bg-ab ta-r">99+</div> -->
+                        <img src="../public/assets/profile-icon.svg" alt="😃">
+                        <p class=" mg-text fs14 ff-ossb">Профиль</p>
+                    </a>
+
+                    <nav id="profileDropdown" class="profile-dropdown-menu">
+                        <a href="index.php?page=home" class="ff-ossb mg-text menu-item">
+                            <img src="../public/assets/home-icon.svg" alt="🏠"> Главная
+                        </a>
+                        <a href="index.php?page=contacts" class="ff-ossb mg-text menu-item">
+                            <img id="randomContactIcon" src="../public/assets/contact-1.svg" alt="📞"> Контакты
+                        </a>
+
+                        <hr>
+
+                        <a href="index.php?page=profile" class="ff-ossb mg-text menu-item">
+                        <img src="../public/assets/profile-icon.svg" alt="👤"> Личный кабинет
+                        </a>
+
+                        <hr>
+
+                        <a href="index.php?page=delivery" class="ff-ossb mg-text menu-item">
+                            <img src="../public/assets/delivery-icon.svg" alt="🚗"> Доставки
+                        </a>
+                        <a href="index.php?page=orders" class="ff-ossb mg-text menu-item">
+                            <img src="../public/assets/orders-icon.svg" alt="🧾"> Заказы
+                        </a>
+                        <a href="index.php?page=reviews" class="ff-ossb mg-text menu-item">
+                            <img src="../public/assets/reviews-icon.svg" alt="🗣"> Отзывы
+                        </a>
+                        <p id="desktopLogOutBtn" class="ff-ossb mg-text menu-item">
+                            <img src="../public/assets/logout-icon.svg" alt="🚪"> Выйти
+                        </p>
+                    </nav>
+                    </div>
+                </nav>
+
+                <nav id="mobile-bar" class="header-links flex ai-c jc-sb">
+                    <a href="index.php?page=cart" class="header-link flex fd-c ai-c">
+                        <div class="link-blob blob-1 mg-text ff-ossb ta-r" id="cart-count" style="display: none;">0</div>
+                        <img src="../public/assets/cart-icon.svg" alt="🛒">
+                        <p class="mg-text fs14 ff-ossb">Корзина</p>
+                    </a>
+
+                    <button id="profileBurger" class="burger-mobile flex fd-c jc-c">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+
+                <div class="mobile-menu flex fd-c ai-c jc-sb" tabindex="-1">
+                    <ul class="submobile-menu flex">
+                        <li>
+                            <a href="index.php?page=home" class="ff-ossb mg-text average-text">
+                                <img src="../public/assets/home-icon.svg" alt="🏠"> Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.php?page=contacts" class="ff-ossb mg-text average-text">
+                                <img id="mobileRandomContactIcon" src="../public/assets/contact-1.svg" alt="📞">Контакты
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="index.php?page=profile" class="ff-ossb mg-text average-text">
+                                <img src="../public/assets/profile-icon.svg" alt="👤"> Личный кабинет
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="index.php?page=favourite" class="ff-ossb mg-text average-text">
+                                <img src="../public/assets/heart-icon.svg" alt="🤍"> Избранное
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.php?page=delivery" class="ff-ossb mg-text average-text">
+                                <img src="../public/assets/delivery-icon.svg" alt="🚚"> Доставки
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.php?page=orders" class="ff-ossb mg-text average-text">
+                                <img src="../public/assets/orders-icon.svg" alt="🧾"> Заказы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.php?page=reviews" class="ff-ossb mg-text average-text">
+                                <img src="../public/assets/reviews-icon.svg" alt="🗣"> Отзывы
+                            </a>
+                        </li>
+                        <li>
+                            <p id="mobileLogOutBtn" class="ff-ossb mg-text average-text">
+                                <img src="../public/assets/logout-icon.svg" alt="🚪"> Выйти
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <?php } else { ?>
+
+
+                <nav class="header-links flex ai-c jc-sb">
+                    <nav class="header-link flex ai-c jc-sb">
+                        <a href="index.php?page=login" id="loginBtnModal" class="header-link flex fd-c ai-c" href="javascript:void(0);">
+                            <img src="../public/assets/login-icon.svg" alt="🔓">
+                            <p class="mg-text ff-ossb">Вход</p>
+                        </a>
+                    </nav>
+
+                    <nav class="header-link flex ai-c jc-sb">
+                        <a href="index.php?page=signup" class="header-link flex fd-c ai-c">
+                            <img src="../public/assets/signup-icon.svg" alt="🗣">
+                            <p class="mg-text ff-ossb">Регистрация</p>
+                        </a>
+                    </nav>
+                </nav>
+
+                <?php } ?>
+            </div>
+            <form id="mobile-search" class="search-form flex ai-c">
+                <input type="text" name="q" placeholder="Поиск..." class="search-input bg-w ff-osr">
+                <button type="submit" class="search-button flex ai-c">
+                    <img src="../public/assets/search.svg" alt="🔍" class="search-icon">
+                </button>
+            </form>
+        </div>
+    </header>
+    <button class="header-toggle-btn bg-dgray1" id="headerToggleBtn" style="opacity: 0;">
+        <img src="../public/assets/farrow-down.svg" alt="">
+    </button>
+</div>
+
+<div class="subheader ff-mr bg-dgray2 mg-text indent-mb">
+    <div class="container flex jc-sb">
+        <p class="g1-text">Телефон: +7 (934) 456-123-21</p>
+        <p class="g1-text">Адрес: г. Ижевск, ул. Примерная, д. 31</p>
+    </div>
+</div>

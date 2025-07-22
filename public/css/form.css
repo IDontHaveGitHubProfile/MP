@@ -1,0 +1,239 @@
+.form-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-title{
+    margin-bottom: var(--hindent);
+}
+
+.form-description{
+    font-size: 18px;
+}
+
+.form, .form-description{
+    margin-bottom: 40px;
+}
+
+.form-rg{
+    row-gap: 30px;
+}
+
+.input-rg{
+    row-gap: 10px;
+}
+
+.form-input::placeholder {
+    color: var(--gray1);
+}
+
+.form-input.x-placeholder {
+    color: var(--gray1);
+}   
+
+.input-subtext{
+    margin-left: 10px;
+}
+
+.input-subtext, .filter-subtext{
+    font-size: 24px;
+}
+
+.form-box{
+    column-gap: 25px;
+}
+
+.form-box p{
+    font-size: 18px;
+}
+
+.box-v{
+    width: 34px;
+    height: 34px;
+}
+
+.error-message {
+    font-size: 0.875rem; 
+    margin-top: 0.25rem; 
+    color: var(--accent-red); 
+    visibility: hidden; 
+}
+
+.error-message.show {
+    visibility: visible; 
+}
+
+.form-button{
+    border-radius: 20px;
+    font-size: 32px;
+    padding: 30px 0;
+    transition: .2s;
+}
+
+.btn-subscription{
+    font-size: 24px;
+    column-gap: 15px;
+}
+
+.form-button:active{
+    filter: brightness(.8);
+}
+
+.form-input:focus {
+    border: 1px solid var(--accent-blue); 
+}
+
+.form-input.error {
+    border: 1px solid var(--accent-red); 
+}
+
+.form-input.valid {
+    border: 1px solid var(--accent-green); 
+}
+
+.form-input, .box-v{
+    background-color: var(--most-gray);
+    border: 1px solid var(--gray1);
+}
+
+.form-container [type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+
+}
+
+.form-container [type="checkbox"]::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    transform: scale(0);
+    box-shadow: inset 1em 1em var(--gray2);
+    transform-origin: top right;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transition: transform 0.3s;
+}
+
+.form-container [type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.fa-eye{
+    padding-left: 20px;
+}
+
+.password-container {
+    position: relative;
+    width: 100%; 
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--gray1); 
+    z-index: 2; 
+}
+
+.password-toggle i {
+    font-size: 20px; 
+}
+
+.password-toggle:hover i {
+    color: var(--darker-gray3); 
+}
+
+.form-input {
+    width: 100%; 
+    padding: 10px;
+    padding-right: 35px; 
+    font-size: 18px;
+    box-sizing: border-box; 
+}
+
+.form-input.medium {
+    border-color: var(--accent-yellow); 
+}
+
+.form-input.strong {
+    border-color: var(--accent-green); 
+}
+
+.error-message.error {
+    color: var(--accent-red);
+}
+
+.error-message.medium {
+    color: var(--accent-yellow);
+}
+
+.error-message.strong {
+    color: var(--accent-green);
+}
+
+.form-input[readonly], .form-input[disabled] {
+    user-select: none; 
+}
+
+input[type="password"] {
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.phone-container {
+    position: relative;
+    width: 100%;
+}
+
+.phone-clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: var(--gray1); 
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: background-color 0.2s; 
+}
+
+.phone-clear i {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.phone-clear:hover {
+    background-color: var(--darker-gray3); 
+}

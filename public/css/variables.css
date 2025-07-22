@@ -1,0 +1,41 @@
+:root {
+
+  --white: #ffffff;
+  --most-gray: #eaeaea;
+  --gray1: #a4a4a4;
+  --gray2: #464646;
+  --other-gray: #5f5f5f;
+  --darker-gray1: #252525;
+  --darker-gray2: #1e1e1e;
+  --darker-gray3: #171717;
+
+  --low-blue: #d3dfe5;
+  --perfect-blue: #9ecbe2;
+  --accent-blue: #30a6e1;
+  --accent-orange: #f55123;
+  --low-red: #e29ea0;
+  --accent-red: #cd0606;
+  --accent-green: #42d325;
+  --accent-yellow: #e19d30;
+
+
+}
+
+.ab-text { color: var(--accent-blue); }
+.mg-text { color: var(--most-gray); }
+.g1-text { color: var(--gray1); }
+.g2-text { color: var(--gray2); }
+.dg3-text { color: var(--darker-gray3); }
+.ar-text { color: var(--accent-red); }
+.og-text { color: var(--other-gray); }
+.w-text { color: var(--white); }
+
+.bg-w { background-color: var(--white) !important; }
+.bg-dgray1 { background-color: var(--darker-gray1); }
+.bg-dgray2 { background-color: var(--darker-gray2); }
+.bg-dgray3 { background-color: var(--darker-gray3); }
+.bg-lb { background-color: var(--low-blue); }
+.bg-lr { background-color: var(--low-red); }
+.bg-ab { background-color: var(--accent-blue); }
+.bg-pb { background-color: var(--perfect-blue); }
+

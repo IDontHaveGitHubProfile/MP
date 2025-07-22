@@ -1,0 +1,59 @@
+.ai-c{
+    align-items: center;
+}
+
+.ai-fs{
+    align-items: flex-start;
+}
+
+.ai-fb{
+    align-items: first baseline;
+}
+
+.ai-fe{
+    align-items: flex-end;
+}
+
+.flex{
+    display: flex;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-fs{
+    justify-content: flex-start;
+}
+
+.jc-fe{
+    justify-content: flex-end;
+}
+
+.fd-c{
+    flex-direction: column;
+}
+
+.ta-c{
+    text-align: center;
+}
+
+footer, header, .w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.as-fs{
+    align-self: flex-start;
+}

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'UnboundedRegular';
+    src: url('../fonts/Unbounded-Regular.woff2') format('woff2'),
+        url('../fonts/Unbounded-Regular.woff') format('woff'),
+        url('../fonts/Unbounded-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'UnboundedMedium';
+    src: url('../fonts/Unbounded-Medium.woff2') format('woff2'),
+        url('../fonts/Unbounded-Medium.woff') format('woff'),
+        url('../fonts/Unbounded-Medium.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'UnboundedSemiBold';
+    src: url('../fonts/Unbounded-SemiBold.woff2') format('woff2'),
+        url('../fonts/Unbounded-SemiBold.woff') format('woff'),
+        url('../fonts/Unbounded-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'MontserratSemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'MontserratBlack';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../fonts/Montserrat-Black.woff') format('woff'),
+        url('../fonts/Montserrat-Black.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/Open_sans-Regular.woff2') format('woff2'),
+        url('../fonts/Open_sans-Regular.woff') format('woff'),
+        url('../fonts/Open_sans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('../fonts/Open_sans-SemiBold.woff2') format('woff2'),
+        url('../fonts/Open_sans-SemiBold.woff') format('woff'),
+        url('../fonts/Open_sans-SemiBold.ttf') format('ttf');
+}
+
+.ff-ossb{
+    font-family: "OpenSansSemiBold";
+}
+
+.ff-osr{
+    font-family: "OpenSansRegular";
+}
+
+.ff-mr{
+    font-family: "MontserratRegular";
+}
+
+.ff-msb{
+    font-family: "MontserratSemiBold";
+}
+
+.ff-mb{
+    font-family: "MontserratBlack";
+}
+
+.ff-ur{
+    font-family: "UnboundedRegular";
+}
+
+.ff-um{
+    font-family: "UnboundedMedium";
+}
+
+.ff-usb{
+    font-family: "UnboundedSemiBold";
+}
+
+.section-title    { font-size: clamp(1.5rem, 2vw + 1rem, 3rem); }
+.subsection-title { font-size: clamp(1.25rem, 1.5vw + 0.5rem, 2rem); }
+.huge-text        { font-size: clamp(1.75rem, 1.2vw + 1rem, 2.5rem); }
+.average-text     { font-size: clamp(1.25rem, 1vw + 0.5rem, 1.75rem); }
+.medium-text      { font-size: clamp(1rem, 0.5vw + 0.5rem, 1.25rem); }
+.body-text        { font-size: clamp(0.9375rem, 0.3vw + 0.5rem, 1.125rem); }
+.small-text       { font-size: clamp(0.8125rem, 0.25vw + 0.4rem, 1rem); }
+.caption-text     { font-size: clamp(0.6875rem, 0.2vw + 0.3rem, 0.875rem); }

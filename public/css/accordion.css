@@ -1,0 +1,132 @@
+.accordion-main .accordion-container {
+    width: 100%;
+}
+
+.accordion-main .accordion {
+    border-bottom: 1px solid var(--darker-gray3);
+}
+
+.accordion-main .accordion-header {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 15px 0;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-main {
+    border-bottom: 2px solid var(--darker-gray3);
+}
+
+.accordion-main .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0;
+}
+
+.accordion-main .accordion-content p {
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.accordion-main .accordion-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-main .accordion-icon span {
+    width: 100%;
+    height: 5px;
+    background: var(--darker-gray3);
+    position: absolute;
+    transition: transform 0.2s ease;
+}
+
+.accordion-main .accordion-icon span:nth-child(1) {
+    transform: rotate(90deg);
+}
+
+.accordion-main .accordion-icon span:nth-child(2) {
+    transform: rotate(0deg);
+}
+
+.accordion-main.accordion.active .accordion-icon span:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.accordion-main.accordion.active .accordion-icon span:nth-child(2) {
+    transform: rotate(0deg);
+}
+
+.accordion-main .accordion.active .accordion-content {
+    max-height: 1000px;
+    padding: 20px 0;
+}
+
+.accordion-footer {
+    width: 100%;
+    border-bottom: 1px solid var(--gray1);
+}
+
+.accordion-footer:last-child {
+    border-bottom: none;
+}
+
+.accordion-footer .accordion-header {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+}
+
+.accordion-footer .accordion-arrow {
+    width: 16px;
+    height: 16px;
+    transition: transform .2s ease;
+}
+
+.accordion-footer .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.accordion-footer .accordion-content a {
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    font-size: 16px;
+}
+
+.accordion-footer:nth-of-type(-n+2) .accordion-content a:last-of-type {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+/* === АДАПТИВНЫЕ ПЕРЕМЕННЫЕ В REM === */
+
+@media screen and (max-width: 1600px) and (min-width: 1441px) {
+  :root {
+    --container: 6.25rem;
+    --indent: 5rem;      
+    --hindent: 3.125rem; 
+    --bindent: 1.5625rem;
+    --module-y: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  :root {
+    --container: 4.375rem;
+    --indent: 3.75rem;
+    --hindent: 2.5rem;
+    --bindent: 1.25rem;
+    --module-y: 1.5625rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  :root {
+    --container: 2.5rem;
+    --indent: 2.5rem;
+    --hindent: 1.875rem;
+    --bindent: 0.9375rem;
+    --module-y: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  :root {
+    --container: 1.5625rem;
+    --indent: 1.5625rem;
+    --hindent: 1.25rem;
+    --bindent: 0.75rem;
+    --module-y: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 376px) {
+  :root {
+    --container: 1.25rem;
+    --indent: 1.25rem;
+    --hindent: 0.9375rem;
+    --bindent: 0.625rem;
+    --module-y: 0.9375rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  :root {
+    --container: 0.9375rem;
+    --indent: 1.25rem;
+    --hindent: 0.9375rem;
+    --bindent: 0.625rem;
+    --module-y: 0.9375rem;
+  }
+
+
+  .scroll-top {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.25rem;
+  }
+
+
+
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0.625rem;
+  }
+  .category-image {
+    height: 4.375rem;
+  }
+  .category-name {
+    font-size: clamp(0.75rem, 4vw, 1.125rem);
+    line-height: 1.3;
+    word-break: break-word;
+  }
+
+
+  .social-black {
+    height: 1.875rem;
+  }
+  .soc-cg {
+    column-gap: 0.625rem;
+  }
+  #desktop-social { display: none; }
+  #mobile-social { display: flex; }
+  .slider-arrow { display: none; }
+
+
+#profileDropdown{
+  display: none;
+}
+
+.mySwiper{
+  max-width: 100%;
+}
+}

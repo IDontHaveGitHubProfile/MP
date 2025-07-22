@@ -1,0 +1,135 @@
+.profile-sides-cg{
+    column-gap: var(--indent);
+}
+
+.title-cg{
+    column-gap: var(--bindent);
+}
+
+.profile-items-rg{
+    row-gap: var(--bindent);
+}
+
+.profile-items{
+    column-gap: var(--hindent);
+}
+
+.profile-item{
+    row-gap: 10px;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: var(--hindent); 
+}
+
+.profile-block {
+    padding: 25px; 
+    transition: .3s;
+}
+
+.profile-block-rg{
+    row-gap: 15px;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.order-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.no-orders-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.no-orders-message i {
+    font-size: 40px;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+.order-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.order-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+}
+
+.order-card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.order-date {
+    font-size: 14px;
+    color: #757575;
+}
+
+.order-status {
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.order-status.не-оплачен {
+    background-color: #ff6347;
+}
+
+.order-status.в-обработке {
+    background-color: #f39c12;
+}
+
+.order-status.оплачен {
+    background-color: #2ecc71;
+}
+
+.order-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.order-price {
+    font-size: 18px;
+    color: #333;
+}
+
+.order-details-link {
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.order-details-link:hover {
+    text-decoration: underline;
+}

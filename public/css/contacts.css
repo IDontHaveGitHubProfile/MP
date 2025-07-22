@@ -1,0 +1,58 @@
+.contact-rg{
+    row-gap: 35px;
+}
+
+.contacties-rg{
+    row-gap: 20px;
+}
+
+.contacties-soc-cg{
+    column-gap: 15px;
+}
+
+.email-container {
+    width: fit-content;
+}
+
+.contact-map-desktop {
+    display: block;
+    width: 100%;
+}
+
+.contact-map-mobile {
+    display: none;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.popup-textarea-wrapper {
+    position: relative;
+}
+
+.popup-textarea-wrapper textarea {
+    padding-bottom: 28px; 
+}
+
+.char-counter {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-size: 13px;
+    color: var(--gray2); 
+    pointer-events: none;
+}
+
+@media (max-width: 375px) {
+    .contact-map-desktop {
+        display: none;
+    }
+
+    .contact-map-mobile {
+        display: block;
+    }
+
+    .fd-c-on-mobile {
+        flex-direction: column;
+    }
+
+}
